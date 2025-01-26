@@ -1,0 +1,14 @@
+const accountID= 144443
+let accountEmail="avis15165@gmail.com"
+var accountPassword= "12345"
+accountCity="jaipur"
+
+// If we change const it will not happen beacuse const cannot be change.
+//  accountID=1212123
+//  console.log(accountID)-It will not work
+
+console.table([accountID, accountEmail, accountPassword, accountCity])
+
+/*
+prefer not to use var beacuse of issue in block scope and functional scope
+*/

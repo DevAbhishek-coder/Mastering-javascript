@@ -1,0 +1,27 @@
+"use strict" //treat all JS code as newer version, but it will not use for all code line
+
+// alert("Hello")- We are using node js not browser
+
+// code should be readable and futureproof
+
+// console.log(3+3) console.log("Abhishek")-there is an error which we can see
+
+console.log(3+3);
+console.log("Abhishek")
+
+// This a write way to do
+
+// Types of datatypes. 
+// Number => 2 to power 53
+// Boolean => true and false
+// string=> letter,words
+// bigint
+// null data types=>standalone value
+// undefined=> when we do not assign value
+// symbol=> it is mainly or largely use in React for uniqueness
+
+// We can check any datatype by writing "Typeof" syntax
+
+console.log(typeof 18)
+
+// This syntax will help us to check datatype
