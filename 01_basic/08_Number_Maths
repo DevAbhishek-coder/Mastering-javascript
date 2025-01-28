@@ -1,0 +1,55 @@
+const score = 400
+console.log(score)
+
+
+
+const balance = new Number(100)
+console.log(balance)
+
+// In first example JS will automatically define number data typeof. And in second one JS will specifically cast number.
+
+// Some value or method in number datatype
+// Tjis method is useful when we want to see number in to string format 
+console.log(balance.toString().length)
+
+// This method is useful while we working in ecommerce website for tax and Gst calculation
+console.log(balance.toFixed(2))
+
+const otherNumber = 123.52525
+console.log(otherNumber.toPrecision(3))
+
+// Precision method is use when we want to precise the value of
+
+
+
+
+
+
+/***********Math*******/
+
+// Math is library which came in JS by default. It is very useful library
+
+
+// console.log(Math.abs(-4))- It will convert negative in +ve
+
+// console.log(Math.ceil(4.2))- It will convert 4.2 into 5 because ciel is use for higher number
+
+// console.log(Math.floor(4.9))- It will convert 4.9 into in 4 because it randomise the lowest number
+
+// console.log(Math.min(4,9,6,9,6))- It will show minimum number
+
+// console.log(Math.max(4,9,56,20,))-It will show  maximum number
+
+
+// console.log(Math.random())- it will print random number. but the number will be in between 0 and 1.
+
+// console.log(Math.random());
+// console.log((Math.random()*10)+1)
+// console.log(Math.floor(Math.random()*10)+1)- In this one the number would be lowest because it randomise these
+
+const min = 10
+const max = 20
+console.log(Math.floor(Math.random()* (max  - min  + 1))+min)
+
+// This function will give number between 10 - 20.We have multiply the max-min+1 to random and than * with min which is 10.So it will give number between 10-20
+
