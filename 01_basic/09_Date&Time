@@ -1,0 +1,24 @@
+//Date//
+let myDate = new Date()
+console.log(myDate)
+// This syntax will give a date by not a organise Way. So we can use toString method to chnage the syntax
+console.log(myDate.toString())
+// 
+// There are many other method which are give are below.
+
+console.log(myDate.toDateString())
+console.log(myDate.toLocaleString())
+console.log(myDate.toTimeString())
+console.log(typeof myDate)
+
+// These are some method 
+
+let myCreatedDate = new Date(2023,0,14)
+console.log(myCreatedDate)
+console.log(myCreatedDate.toString())
+
+// Method to convert time into second
+
+console.log(Math.floor(Date.now()/1000))
+
+
