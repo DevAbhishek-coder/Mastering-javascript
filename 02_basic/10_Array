@@ -1,0 +1,48 @@
+//Array 
+
+//Arrays are written in square brackets [], we can write both number and string value as well as mixed datatype.
+
+const myArr = [1,2,3,4,6]
+const myHeros = ["Ironman","thor"]
+
+console.log(myArr[1])
+console.log(myHeros[0])
+
+//Array Method
+
+myArr.push(7)
+console.log(myArr);
+
+// PUSH method use to add a datatype into the exisiting array
+
+myArr.pop()
+console.log(myArr)
+
+// POP method use to remove last data from the end of datatype
+
+myArr.unshift(9)
+console.log(myArr)
+
+// Unshift method add your argunment in the starting od thr Array. But it not good for large amount of dataset
+
+myArr.shift()
+console.log(myArr)
+
+// Shift method remove 0th index from the array. You do not need to pass any argunment
+
+// console.log(myArr.includes(9));
+// console.log(myArr.indexof(3));
+
+// These are question method, which we can use to ask JS about the argunment
+
+const newArr = myArr.join()
+console.log(myArr)
+console.log(newArr)
+
+// JOIN method is use to convert number to string datatype
+
+
+
+//Slice  and Splice
+
+
