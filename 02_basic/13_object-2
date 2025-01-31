@@ -1,0 +1,54 @@
+///Object part-2//
+
+
+//Singelton object- an object which can only be instantiated one time.
+
+const user_Object = {
+    Userr_ID: "123abc",
+    User_Email: "some@Gmail.com",
+    Isuser_loogedIn: false
+}
+
+// console.log(user_Object)
+
+// This is basic method. What there is object inside the object, let's chekc out.
+
+const user_details= {
+    User_ID: "15bca",
+    User_fullname:{
+        username:{
+            first_name: "Abhishek",
+            last_name: "Singh Raghuvansi"
+        }
+    }
+
+
+}
+
+// console.log(user_details.User_fullname.first_name.last_name)
+
+////Merging two object////
+
+//--Object Assign--///
+
+const obj1 = {1:"a", 2: "b"}
+const obj2 = {3:"a", 4: "b"}
+const obj3 = {5:"a", 6: "b"}
+
+const obj4 = Object.assign(obj1,obj2,obj3)
+
+// console.log(obj4)
+
+// This is how we can merge two object
+//We can use assign to merge object
+
+// There is another method.Which is Spread method
+
+const obj5 = {...obj1,...obj2,...obj3}
+console.log(obj5)
+
+
+
+
+
+
