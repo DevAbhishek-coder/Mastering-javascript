@@ -1,0 +1,53 @@
+//Obejct in depth
+
+//Object literal- Way to declare Object
+
+// How to declare symbol data type
+
+// const mySym = Symbol("key1")
+
+
+
+const jsUser = {
+    name: "Abhi",
+    [mySym]: "mykey",
+    Age: 18,
+    location: 'Noida',
+    email: "Abhi@gmail.com",
+    isLoggedin: false
+}
+
+// We can access object value by using '.notation'.
+
+//  console.log(jsUser.name)
+//  console.log(typeof jsUser.email)
+
+
+//  console.log(typeof jsUser.mySym)
+//  BUt it will not act like as symbole data typeof. So for the we have to wrap it within a square bracket
+
+//  console.log(jsUser[mySym])
+
+//  Some basic thing about object
+
+// We can use .notation for access the object Element.
+
+//  We can change value of object -jsUser.email = "Abhi@chatgpt.com"
+//  console.log(jsUser)
+
+// freeze is a method which is use to freeze a Element.
+
+///Function/////
+
+let newUser = {}; // Define the object first
+
+newUser.greeting = function() {
+    console.log("Hello New User");
+};
+
+console.log(newUser.greeting()); // This will correctly print "Hello New User"
+
+
+console.log
+
+

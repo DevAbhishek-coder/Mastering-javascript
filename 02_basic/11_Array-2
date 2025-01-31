@@ -1,0 +1,40 @@
+//Array-2
+
+// concat operator
+
+const marvel_heroes = ["Spiderman","Thor","IronMan"]
+const dc_heroes = ["Superman","Batman","Flash"]
+
+// marvel_heroes.push(dc_heroes)
+// console.log(marvel_heroes)
+
+// It will pick other array as a single Element(Meand whole array as a single array)
+
+// It is not a good way to merge
+
+const allHeros  = marvel_heroes.concat(dc_heroes)
+console.log(allHeros)
+
+// This wi ll merge both Array.
+
+//////Spread Method for merge////
+
+const all_new_heros = [...marvel_heroes, ...dc_heroes]
+console.log(all_new_heros)
+// It will also merge both the array like concat. And this method used by my many code nowdays
+
+const another_array = [1,23,25,[5,6,7,8],9,10,[52,25,52]]
+
+// In this one here array inside array.So we have to spread them into one single array
+
+const single_array = another_array.flat(Infinity)
+console.log(single_array)
+
+// This syntax will spread all the array into a single array``
+
+console.log(Array.isArray("Abhishek"))
+console.log(Array.from("Abhishek"))
+
+// First one will show false false Value.and second with from syntax will spread all the letter
+
+// Try to leanr more about isArray,from
