@@ -1,0 +1,31 @@
+///Objects destructuring and JSON API
+
+////Objects destructuring
+
+const course = {
+    coursename: "MasteringJs",
+    coursefees: "999",
+    courseInstructor: "Hitesh Sir"
+}
+
+// This is traditional way to do
+console.log(course.courseInstructor)
+
+// There is a another way where we destructure
+// Here we have dstrucute the object so we do not need to write whole object.
+const {courseInstructor}=course
+console.log(courseInstructor)
+
+///******API Concept***////
+
+// Object is JSON '{}' this is JSON
+
+// {
+//     name: "Abhishek",
+//     course_name: "JS"
+//     price: "free"
+// }
+
+// In JSON key and value both are string
+
+// Tools for learn:- JSON FOrmator.
