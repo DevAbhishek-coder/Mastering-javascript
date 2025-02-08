@@ -47,3 +47,11 @@ if (true){
 // console.log(username)
 
 ////+++++++++Intresting ++++++++++
+
+
+function addon(num){
+    return num +1
+}
+
+console.log(addon(10))
+
