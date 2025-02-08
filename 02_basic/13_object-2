@@ -11,7 +11,7 @@ const user_Object = {
 
 // console.log(user_Object)
 
-// This is basic method. What there is object inside the object, let's chekc out.
+// This is basic method. What if  there is object inside the object, let's chekc out.
 
 const user_details= {
     User_ID: "15bca",

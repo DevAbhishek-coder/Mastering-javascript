@@ -19,8 +19,8 @@ function addNumbers(number1,number2){
         return  number1 + number2
 }
 
-// const result = addNumbers(3,4)
-// console.log("Result:",result)
+const result = addNumbers(3,4)
+console.log("Result:",result)
 
 // If we run this we can see the result is coming byt there is undefined value. We can write let return number1 + number2
 

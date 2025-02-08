@@ -18,7 +18,7 @@
 // ii-Reference or Non-Primitve
 // Array,objects,Functions
 
-// const heros = ["Shaktiman","naga"]- Arrays are always written into a square bracket. Objects are always into a square bracket
+// const heros = ["Shaktiman","naga"]- Arrays are always written into a square bracket. Objects are always into currly bracket
 
 // {
 //     name: "Hitesh",

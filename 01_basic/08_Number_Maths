@@ -9,7 +9,7 @@ console.log(balance)
 // In first example JS will automatically define number data typeof. And in second one JS will specifically cast number.
 
 // Some value or method in number datatype
-// Tjis method is useful when we want to see number in to string format 
+// This method is useful when we want to see number in to string format 
 console.log(balance.toString().length)
 
 // This method is useful while we working in ecommerce website for tax and Gst calculation
