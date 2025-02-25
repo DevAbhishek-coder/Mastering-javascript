@@ -15,7 +15,7 @@ const dc_heroes = ["Superman","Batman","Flash"]
 const allHeros  = marvel_heroes.concat(dc_heroes)
 console.log(allHeros)
 
-// This wi ll merge both Array.
+// This will merge both Array.
 
 //////Spread Method for merge////
 

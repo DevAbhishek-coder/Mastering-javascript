@@ -4,7 +4,7 @@
 
 // How to declare symbol data type
 
-// const mySym = Symbol("key1")
+const mySym = Symbol("key1")
 
 
 
@@ -19,14 +19,14 @@ const jsUser = {
 
 // We can access object value by using '.notation'.
 
-//  console.log(jsUser.name)
+ console.log(jsUser.name)
 //  console.log(typeof jsUser.email)
 
 
 //  console.log(typeof jsUser.mySym)
 //  BUt it will not act like as symbole data typeof. So for the we have to wrap it within a square bracket
 
-//  console.log(jsUser[mySym])
+ console.log(jsUser[mySym])
 
 //  Some basic thing about object
 
