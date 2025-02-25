@@ -50,4 +50,3 @@ console.log(newUser.greeting()); // This will correctly print "Hello New User"
 
 console.log
 
-

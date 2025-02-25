@@ -29,26 +29,25 @@ function exampleFunction() {
 
 // Global Scope
 
-var username = "Abhishek"; // Global variable
+// / Global variable (accessible anywhere in the script)
 
-function changeUsername() {
-    username = "Rohan"; // Overwrites the global variable
+let globalVar = "I am a Global Variable";
+
+function showGlobal() {
+    console.log(globalVar); // ✅ Accessible here
 }
 
-console.log(username); // "Abhishek"
-changeUsername();
-console.log(username); // "Rohan" (Oops! It changed globally)
-
+showGlobal();
+console.log(globalVar); // ✅ Accessible here too (outside the function)
 
 
 // Private Scope
 
-function changeUsername() {
-    let username2 = "Rohan"; // Local variable
-    console.log(username2); // "Rohan"
+function showLocal() {
+    // Local variable (only accessible inside this function)
+    let localVar = "I am a Local Variable";
+    console.log(localVar); // ✅ Accessible here
 }
 
-let username2 = "Abhishek"; // Global variable
-console.log(username2); // "Abhishek"
-changeUsername();
-console.log(username2); // Still "Abhishek" (No conflict!)
+showLocal();
+console.log(localVar); // ❌ Error! (localVar is not defined outside the function)
