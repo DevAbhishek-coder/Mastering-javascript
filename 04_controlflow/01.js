@@ -20,7 +20,7 @@
 //     console.log(`User Power:Not fly`)
 // }
 
-// console.log(`User Power: ${power}`)
+// // console.log(`User Power: ${power}`)
 
 
 // Var is global scope. it will accessible from everywhere
@@ -29,19 +29,19 @@
 
 // Nesting
 
-// const balance = 1000
+const balance = 1000
 
-// if(balance < 500){
-//     console.log("less than 500");
-// }else if (balance < 700) {
-//     console.log("less than 1500");
+if(balance < 500){
+    console.log("less than 500");
+}else if (balance < 700) {
+    console.log("less than 700");
 
-// }else if(balance < 900){
-//     console.log("less than 900")
-// }
-// else{
-//     console.log("less than 1200")
-// }
+}else if(balance < 900){
+    console.log("less than 900")
+}
+else{
+    console.log("less than 1200")
+}
 
 
 // Real Life usage.
@@ -54,11 +54,15 @@ const loggedInFromEmail = true
 if(userloggedin && debitcard){
     console.log("Allow to buy courses")
 }
+else{
+    console.log("Do not allow")
+}
 
 if(userloggedin || loggedInFromEmail){
     console.log("User loggedin")
 }
 
-// "||" this sign is use to compare both CSSConditionRule. If one condition is true it will return true
+
+// "||" this sign is use to compare both Condition. If one condition is true it will return true
 
 // "&&" this is sign which is use to compare conditon if one condition is false it will return false
