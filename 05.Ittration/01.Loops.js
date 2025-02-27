@@ -37,3 +37,37 @@
 // }
 
 
+
+
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`2 * ${i}= ${2*i}`)
+// }
+
+// Some Keyword
+
+// break and continue
+
+// for (let index = 0; index <=20; index++) {
+
+//     if (index == 5) {
+//         console.log("Detected 5");
+//         break}
+
+//     console.log(`Value of index is ${index}`)
+// }
+
+//Continue//
+
+
+for (let index = 0; index <=20; index++) {
+
+    if (index == 5) {
+        console.log("Detected 5");
+        continue}
+
+    console.log(`Value of index is ${index}`)
+}
+
+
+// break will stop the loop when condition match.
+// Continue will skip the condition and will continue loop
