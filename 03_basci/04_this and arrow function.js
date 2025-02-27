@@ -11,9 +11,9 @@ const userdetails = {
     }
 }
 
-// userdetails.welcomemessage()
-// userdetails.username =  "Sam"
-// userdetails.welcomemessage()
+userdetails.welcomemessage()
+userdetails.username =  "Sam"
+userdetails.welcomemessage()
 
 // console.log(this)
 

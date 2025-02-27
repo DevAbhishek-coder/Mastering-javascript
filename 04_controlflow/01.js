@@ -46,3 +46,19 @@
 
 // Real Life usage.
 
+const userloggedin = false
+const debitcard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+
+if(userloggedin && debitcard){
+    console.log("Allow to buy courses")
+}
+
+if(userloggedin || loggedInFromEmail){
+    console.log("User loggedin")
+}
+
+// "||" this sign is use to compare both CSSConditionRule. If one condition is true it will return true
+
+// "&&" this is sign which is use to compare conditon if one condition is false it will return false
