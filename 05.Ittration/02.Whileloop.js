@@ -1,10 +1,10 @@
 // While loop
 
-// let i = 0
-// while (i <=10) {
-//     console.log(`Value of i is ${i}`)
-//     i = i+2
-// }
+let i = 0
+while (i <=10) {
+    console.log(`Value of i is ${i}`)
+    i = i+2
+}
 
 // let myArray = ["Flash","Batman","Superman"]
 // let arr = 0
@@ -25,10 +25,10 @@
 // -Do while loop is rarely use. We prefer first match condition
 
 
-let score = 11
+// let score = 11
 
-do {
-    console.log(`Score is ${score}`)
-    score++
-} while (score<=10);
+// do {
+//     console.log(`Score is ${score}`)
+//     score++
+// } while (score<=10);
 

@@ -21,16 +21,16 @@
 
 // // Loop inside Loop//
 
-// for (let i = 0; i <=10 ; i++) {
-//     // console.log(`Outer Loop value: ${i}`)
+for (let i = 1; i <=10 ; i++) {
+    // console.log(`Outer Loop value: ${i}`)
 
-//     for (let j = 0; j <= 10; j++) {
-//     //     console.log(`Inner Value ${j} and inner loop ${i}`)
-//     console.log(`${i} * ${j} = ${i * j}`) ;
+    for (let j = 1; j <= 10; j++) {
+    //     console.log(`Inner Value ${j} and inner loop ${i}`)
+    console.log(`${i} X ${j} = ${i * j}`) ;
         
-//     };
+    };
     
-// }
+}
 
 // for (let i = 1; i <= 10; i++) {
 //     console.log(`2 x ${i} = ${2 * i}`);
@@ -59,14 +59,14 @@
 //Continue//
 
 
-for (let index = 0; index <=20; index++) {
+// for (let index = 0; index <=20; index++) {
 
-    if (index == 5) {
-        console.log("Detected 5");
-        continue}
+//     if (index == 5) {
+//         console.log("Detected 5");
+//         continue}
 
-    console.log(`Value of index is ${index}`)
-}
+//     console.log(`Value of index is ${index}`)
+// }
 
 
 // break will stop the loop when condition match.
